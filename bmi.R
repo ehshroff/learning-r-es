@@ -8,7 +8,7 @@
 80 > 120 | 1.6 > 210 / 100
 weight_a <- 80
 height_a <- 1.6
-bmi_a <- weight_a / bmi_a ^ 2
+bmi_a <- weight_a / height_a ^ 2
 read.table(file = "data/women.csv",header = TRUE,sep = ",")
 
 install.packages("openxlsx")
